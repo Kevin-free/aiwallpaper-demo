@@ -3,7 +3,7 @@ import { getOpenAIClient } from "@/service/openai";
 export async function POST(req: Request) {
   const { description } = await req.json();
 
-  console.log("description", description);
+  console.log("description:", description);
 
   const client = getOpenAIClient();
 

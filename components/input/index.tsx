@@ -34,7 +34,7 @@ export default function ({ setWallpapers }: Props) {
   };
 
   const handleSubmit = async function () {
-    console.log("current", description);
+    console.log("current:", description);
     if (!description) {
       alert("壁纸描述不能为空");
       return;
